@@ -7,7 +7,7 @@
   </head>
 
   <body class="">
-    <div class="" id="app">
+    <!-- <div class="" id="app">
       <nav class="navbar navbar-light bg-light fixed-top" v-if="cart.length > 0">
         <div class="navbar-text ml-auto">
           <b>cart:</b>
@@ -33,6 +33,12 @@
           <div class="h5 float-right">Rp{{ item.price }}</div>
         </div>
       </div>
+    </div> -->
+
+    <div class="container" id="app">
+      <h3>Slugtize</h3>
+      <input type="text" class="form-control" v-model="slugText" />
+      <div class="font-weighht text-danger">{{ slugetize }}</div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
